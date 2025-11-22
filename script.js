@@ -30,7 +30,7 @@ for(let i=0;i<bands.length;i++){
         }
     }
 }
-const text=document.querySelector(".text")
+const text=document.querySelector("#bands")
 
 for(let i=0;i<ans.length;i++){
 	const p=document.createElement("li")
