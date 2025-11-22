@@ -1,8 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	background-color:grey;
+}
 .text{
 	
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
-	align-items:center;
+	align-items:flex-start;
+	margin-left:40%;
+	/* background-color:white; */
+	height:500px;
+	padding:20px;
+}
+ul{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:flex-start;
 }
